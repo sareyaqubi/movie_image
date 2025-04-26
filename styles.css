@@ -1,0 +1,139 @@
+/* Body setup */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  text-align: center;
+  flex-direction: column; /* Arrange content vertically */
+}
+
+/* Form style */
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column; /* Align elements inside form vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Heading style */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Uploaded image style */
+img {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* File input style */
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #74ebd5;
+}
+
+/* Submit button style */
+button {
+  padding: 12px 25px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Link styling for "Upload New Image" */
+a {
+  display: inline-block;
+  margin-top: 30px; /* Space between content and link */
+  color: #4CAF50;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for the link */
+a:hover {
+  background-color: #4CAF50;
+  color: white;
+  transform: translateY(3px); /* Slight lift effect on hover */
+}
+  /* Style for the upload page */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+.upload-container h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.upload-container input[type="file"] {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.upload-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-container button:hover {
+  background-color: #45a049;
+}
